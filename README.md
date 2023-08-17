@@ -9,10 +9,29 @@
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 ![Rails](https://img.shields.io/badge/rails-%23CC0000.svg?style=for-the-badge&logo=ruby-on-rails&logoColor=white)
 
+## Development
 
-## Demo
+* Start Rails API Development Server
 
-* https://near-miss-report.herokuapp.com/
+  * rvm install 2.7
+
+  * bunldle install
+
+  * rake db:create
+
+  * rake db:setup
+
+  * rails s
+
+* Start NextJS Client Development Server
+
+  * cd client
+
+  * npm install
+
+  * npm run dev
+
+* Open http://localhost:3000
 
 * Users: 
 

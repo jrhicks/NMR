@@ -81,7 +81,13 @@ export const ReportCommentForm = ({ report }) => {
           </div>
 
           <div className="absolute inset-x-0 bottom-0 flex justify-between py-2 pl-3 pr-2">
-            <div className="flex items-center space-x-5"></div>
+            <div className="flex items-center space-x-5">
+            <img
+                className="flex h-10 w-10 items-center justify-center rounded-full bg-gray-400 ring-8 ring-white"
+                src={note.user.avatar}
+                alt=""
+            />
+            </div>
             <div className="flex-shrink-0">
               <button
                 type="submit"

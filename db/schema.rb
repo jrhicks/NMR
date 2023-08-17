@@ -65,6 +65,7 @@ ActiveRecord::Schema[7.0].define(version: 2022_11_16_175726) do
     t.string "email"
     t.string "phone"
     t.string "title"
+    t.string "avitar"
     t.string "avatar"
     t.index ["username"], name: "index_users_on_username", unique: true
   end
